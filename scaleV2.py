@@ -40,7 +40,7 @@ relais1 = Pin(17, Pin.OUT)   # Für Kontakt Mühle zur Originalplatine
 relais2 = Pin(16, Pin.OUT)   # Für Powerknopf Originalplatine
 led4    = Pin(23, Pin.IN)    # ebenfalls wie im Original (nur Input, nicht genutzt)
 
-singleShotWeight = 9.0
+singleShotWeight = 10.0
 doubleShotWeight = 14.0
 
 waitAfterGrinding = 1 #seconds
